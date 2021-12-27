@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+  <author>RasKjeldsen</author>
+  <version>1.1.0.0</version>
+
+  <title>
+    <en>Better Time Scale</en>
+    <de>Mehr Zeitscalierungsoptionen</de>
+  </title>
+  <description>
+    <en>
+      <![CDATA[Adds additional timescales.
+
+Time scales added to the game:
+1000x, 5000x and 15000x
+]]>
+    </en>
+	<de>
+      <![CDATA[Fügt weitere Zeitscalierungsoptionen hinzu.
+
+Folgende Zeitscalierungsoptionen würden hinzugefügt:
+1000x, 5000x und 15000x
+]]>
+    </de>
+  </description>
+
+  <iconFilename>icon.dds</iconFilename>
+  <multiplayer supported="true" />
+
+  <extraSourceFiles>
+    <sourceFile filename="src/main.lua"/>
+  </extraSourceFiles>
+</modDesc>
